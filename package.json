@@ -1,0 +1,69 @@
+{
+  "name": "sovereign-cloud-compiler",
+  "displayName": "Sovereign Fast Compiler & Codec",
+  "description": "Serverless multi-language bare-metal compiler and spatial-temporal compression engine for VS Code & Cursor.",
+  "version": "1.0.0",
+  "publisher": "SovereignByte",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Build Tools",
+    "Other"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "sovereign.compileFile",
+        "title": "Sovereign: Compile & Harden Active File"
+      },
+      {
+        "command": "sovereign.compressFile",
+        "title": "Sovereign: Compress Active File (SPST Codec)"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "sovereign.compileFile",
+          "group": "7_modification",
+          "when": "resourceExtname =~ /\\.(c|cpp|rs|go|zig|py|ts|js)$/"
+        },
+        {
+          "command": "sovereign.compressFile",
+          "group": "7_modification"
+        }
+      ],
+      "editor/context": [
+        {
+          "command": "sovereign.compileFile",
+          "group": "7_modification",
+          "when": "resourceExtname =~ /\\.(c|cpp|rs|go|zig|py|ts|js)$/"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Sovereign Cloud",
+      "properties": {
+        "sovereign.apiKey": {
+          "type": "string",
+          "default": "",
+          "description": "Your AWS Marketplace / Sovereign Cloud API Key"
+        },
+        "sovereign.apiUrl": {
+          "type": "string",
+          "default": "https://a3pme2hx4v.us-east-1.awsapprunner.com",
+          "description": "Sovereign Cloud API Gateway URL"
+        },
+        "sovereign.optimizationLevel": {
+          "type": "string",
+          "enum": ["O2", "O3", "ReleaseFast", "ReleaseSmall"],
+          "default": "O3",
+          "description": "Default compiler optimization flag"
+        }
+      }
+    }
+  }
+}
