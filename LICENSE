@@ -1,0 +1,47 @@
+SOVEREIGN FAIR-USE COMMERCIAL & TRADEMARK LICENSE v1.0
+======================================================
+Copyright (c) 2026 Sovereign Byte Technology. All Rights Reserved.
+Founder: Shubham Tomar
+Contact: connectwith@sovereignbyte.tech
+Website: https://sovereignbyte.tech
+
+1. EVALUATION, DEVELOPMENT & RESEARCH GRANT
+-------------------------------------------
+Permission is hereby granted, free of charge, to any individual or entity 
+evaluating this Software for internal testing, local development, educational 
+research, non-commercial security audits, and trial benchmarks, to inspect, 
+run, test, and integrate the extension with Visual Studio Code and Cursor IDE,
+subject to the conditions herein.
+
+2. COMMERCIAL PRODUCTION & CLOUD DEPLOYMENT RESTRICTION
+-------------------------------------------------------
+Any production deployment, commercial compilation automation, SaaS integration,
+managed cloud backup hosting, or commercial redistribution of this Software or
+its drivers requires a valid Commercial Production License or Enterprise
+Subscription Agreement executed with Sovereign Byte Technology.
+To acquire a commercial production license, contact: connectwith@sovereignbyte.tech.
+
+3. TRADEMARK & BRAND IDENTITY PROTECTION
+----------------------------------------
+Sovereign Byte Technology™, SovereignDB™, .spst™, TruthGuard™, and SatyaKavach™
+are common-law proprietary trademarks of Sovereign Byte Technology.
+No right, title, interest, or license is granted to use these trademarks, trade names,
+logos, or brand identifiers in any commercial advertising, promotional materials,
+or derivative software without prior express written consent.
+
+4. AIR-GAPPED INTELLECTUAL PROPERTY & TRADE SECRETS
+---------------------------------------------------
+The underlying compressed-domain search algorithms, spatial delta modeling codecs,
+binary bitstream container formats (.spst), and server-side acceleration engines
+constitute proprietary trade secrets of Sovereign Byte Technology and are not
+licensed, disclosed, or transferred under any terms herein.
+
+5. DISCLAIMER OF WARRANTY
+-------------------------
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM,
+OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
